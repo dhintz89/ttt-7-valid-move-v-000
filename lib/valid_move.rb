@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 
 def valid_move?(board, index)
-  if(board[index].between(-1,10))
+  if(board[index].between(0,9))
     return TRUE
   end
 end
